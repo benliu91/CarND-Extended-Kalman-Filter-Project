@@ -1,7 +1,7 @@
-# Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# T2-SDCND-Extended-Kalman-Filter-Project
+Udacity Self-Driving Car Engineer Nanodegree Term 2 Extended Kalman Filter Project
 
----
+See Instruction below:
 
 ## Dependencies
 
@@ -22,18 +22,7 @@ Self-Driving Car Engineer Nanodegree Program
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
-4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
-   some sample inputs in 'data/'.
-    - eg. `./ExtendedKF ../data/obj_pose-laser-radar-synthetic-input.txt`
-
-## Editor Settings
-
-We've purposefully kept editor configuration files out of this repo in order to
-keep it as simple and environment agnostic as possible. However, we recommend
-using the following settings:
-
-* indent using spaces
-* set tab width to 2 spaces (keeps the matrices in source code aligned)
+4. Run it: `./ExtendedKF ../data/obj_pose-laser-radar-synthetic-input.txt output.txt'.
 
 ## Code Style
 
